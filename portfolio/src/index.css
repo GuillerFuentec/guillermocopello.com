@@ -1,4 +1,20 @@
-html {
-    margin: 0;
-    padding: 0;
+:root {
+  --hover: #1eebe2;
+}
+
+#root {
+  margin-top: 0px;
+  padding: 0px;
+}
+
+i {
+  font-size: 24px;
+}
+
+i:hover {
+  color: var(--hover);
+}
+
+p {
+  font-size: 17px;
 }
