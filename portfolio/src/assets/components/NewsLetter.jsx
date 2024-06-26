@@ -1,7 +1,7 @@
 export default function NewsLetter() {
   return (
     <>
-      <div className="flex flex-col justify-start items-start md:flex-row">
+      <div className="flex flex-col justify-center items-center md:flex-row">
         <div className="flex flex-col w-full lg:flex-row">
             <div className="card-body">
               <div className="justify-start py-3">

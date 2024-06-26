@@ -1,7 +1,12 @@
+import pic from "../../media/Profile.jpg";
+
 export default function Hero() {
   return (
     <>
-      <div className="hero mt-16">
+      <div className="flex justify-center mt-24 mb-0">
+        <img src={pic} className="pic rounded-full" />
+      </div>
+      <div className="hero mt-4">
         <div className="hero-content text-left">
           <div className="w-3/4 ">
             <h1 className="text-5xl font-bold">
@@ -56,12 +61,14 @@ export default function Hero() {
               projects.
             </div>
             <div className="">
-              <button className="btn btn-accent join-item my-4">Dowload CV</button>
+              <button className="btn btn-accent join-item my-4">
+                Download CV
+              </button>
             </div>
             <div className="my-4">
-              <i className="bi bi-twitter-x pr-6"></i>
-              <i className="bi bi-linkedin pr-6"></i>
-              <i className="bi bi-github pr-6"></i>
+              <i className="bi bi-twitter-x pr-6 cursor-pointer"></i>
+              <i className="bi bi-linkedin pr-6 cursor-pointer"></i>
+              <i className="bi bi-github pr-6 cursor-pointer"></i>
             </div>
           </div>
         </div>
