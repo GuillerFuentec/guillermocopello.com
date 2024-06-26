@@ -7,6 +7,7 @@ import Works from "./assets/components/BodyWorks";
 import HeaderNav from "./assets/components/HeaderNav";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import NewsLetter from "./assets/components/NewsLetter";
+import Footer from "./assets/components/Footer";
 
 export default function App() {
   const [theme, setTheme] = useState("light");
@@ -20,8 +21,9 @@ export default function App() {
       <Layout>
         <HeaderNav toggleTheme={toggleTheme}/>
         <Hero />
-        <Blogging/>
         <Works/>
+        <Blogging/>
+        <Footer/>
       </Layout>
     </div>
   );

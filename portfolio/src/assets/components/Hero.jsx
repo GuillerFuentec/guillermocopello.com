@@ -9,9 +9,10 @@ export default function Hero() {
             </h1>
             <div className="mt-8">
               <p className="py-6">
-                I am Copello, a passionate React Web developer and with a notion of creating
-                scripts for Unity 3D Engine, and I currently work as a
-                freelancer doing very simple jobs like landing pages. I have a deep love for programming.
+                I am Copello, a passionate React Web developer and with a notion
+                of creating scripts for Unity 3D Engine, and I currently work as
+                a freelancer doing very simple jobs like landing pages. I have a
+                deep love for programming.
               </p>
               {/* <p>
                 I am currently working on <a>cnadted.com</a>, some jobs and
@@ -41,19 +42,23 @@ export default function Hero() {
                 <br />
                 <br />
               </p> */}
-                <span className="resalted-text">
-                  I regularly write articles on my website
-                </span>
-                , where I share my knowledge and experiences.
-                <br />
-                <br />I am someone who is constantly learning and growing along
-                with the technology industry.{" "}
-                <span className="resalted-text email" id="bio-contact-me">
-                  Contact me
-                </span>
-                , I am excited to bring my skills and passion to your team or projects.
+              <span className="resalted-text">
+                I regularly write articles on my website
+              </span>
+              , where I share my knowledge and experiences.
+              <br />
+              <br />I am someone who is constantly learning and growing along
+              with the technology industry.{" "}
+              <span className="resalted-text email" id="bio-contact-me">
+                Contact me
+              </span>
+              , I am excited to bring my skills and passion to your team or
+              projects.
             </div>
-            <div className="m-8">
+            <div className="">
+              <button className="btn btn-accent join-item my-4">Dowload CV</button>
+            </div>
+            <div className="my-4">
               <i className="bi bi-twitter-x pr-6"></i>
               <i className="bi bi-linkedin pr-6"></i>
               <i className="bi bi-github pr-6"></i>

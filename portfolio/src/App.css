@@ -1,7 +1,8 @@
 .layout {
   height: auto;
+  width: auto;
   max-width: 980px;
-  min-width: 312px;
+  min-width: 212px;
   margin: 0 auto;
   height: 100%;
 }
@@ -51,7 +52,27 @@
 }
 
 .icon {
-    width: 22px;
-    height: 22px;
+  width: 22px;
+  height: 22px;
 }
 
+/* Para tablets en orientación horizontal y dispositivos con pantallas pequeñas */
+@media (max-width: 767px) {
+  .layout {
+    max-width: 740px;
+  }
+}
+
+/* Para tablets en orientación vertical y dispositivos con pantallas grandes */
+@media (max-width: 991px) {
+  .layout {
+    max-width: 960px;
+  }
+}
+
+/* Para dispositivos con pantallas muy grandes */
+@media (max-width: 1199px) {
+  .layout {
+    max-width: 1140px;
+  }
+}
