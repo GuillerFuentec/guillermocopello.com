@@ -97,6 +97,14 @@ export default function HeaderNav({ toggleTheme }) {
                               </li>
                               <li>
                                 <a
+                                  href="/about"
+                                  className="block mt-4 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                >
+                                  About Mea
+                                </a>
+                              </li>
+                              <li>
+                                <a
                                   href="/services"
                                   className="block px-4 py-2 text-sm text-gray-700 bg-accent hover:bg-gray-100"
                                 >
