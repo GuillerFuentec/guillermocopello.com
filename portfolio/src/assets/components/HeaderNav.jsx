@@ -24,11 +24,14 @@ export default function HeaderNav({ toggleTheme }) {
 
   useEffect(() => {
     window.addEventListener("click", handleClickOutside);
-
+    window.addEventListener('scroll', handleScroll);
+  
     return () => {
       window.removeEventListener("click", handleClickOutside);
+      window.removeEventListener('scroll', handleScroll);
     };
-  }, [isOpen]);
+  }, [isOpen, prevScrollPos]);
+  
 
   const menuRef = useRef(null);
   return (
