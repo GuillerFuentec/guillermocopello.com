@@ -13,7 +13,6 @@ import Footer from "./assets/components/Footer";
 // Routes
 import AboutMe from "./pages/About";
 import Projects from "./pages/Projects";
-import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Privacity from "./pages/Privacity-Security/Privacity";
 import Security from "./pages/Privacity-Security/Security";
@@ -45,7 +44,6 @@ export default function App() {
         <HeaderNav toggleTheme={toggleTheme} />
         <Router>
           <Routes>
-            <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<AboutMe />} />
             <Route path="/projects" element={<Projects />} />

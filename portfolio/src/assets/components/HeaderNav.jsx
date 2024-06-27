@@ -24,14 +24,13 @@ export default function HeaderNav({ toggleTheme }) {
 
   useEffect(() => {
     window.addEventListener("click", handleClickOutside);
-    window.addEventListener('scroll', handleScroll);
-  
+    window.addEventListener("scroll", handleScroll);
+
     return () => {
       window.removeEventListener("click", handleClickOutside);
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [isOpen, prevScrollPos]);
-  
 
   const menuRef = useRef(null);
   return (
@@ -101,14 +100,6 @@ export default function HeaderNav({ toggleTheme }) {
                                   className="block mt-4 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                                 >
                                   About Mea
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/services"
-                                  className="block px-4 py-2 text-sm text-gray-700 bg-accent hover:bg-gray-100"
-                                >
-                                  Services
                                 </a>
                               </li>
                               <li>
@@ -204,14 +195,7 @@ export default function HeaderNav({ toggleTheme }) {
                             Contact
                           </a>
                         </li>
-                        <li>
-                          <a
-                            className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
-                            href="/Services"
-                          >
-                            Services
-                          </a>
-                        </li>
+                        
                       </ul>
                     </nav>
                   </div>

@@ -45,26 +45,29 @@ export default function About() {
               <div className="mb-10">
                 <h2 className="text-xl font-bold mb-2">-Education</h2>
                 <p>
-                  Given that I am self-taught, I have learned much more by doing
-                  things than by formal training, but don’t let this deceive
-                  you, I have invested more than 10000 hours of my life in
-                  learning to program and develop web applications on platforms
-                  such as:
+                  I am self-taught, and i have learned much more by doing things
+                  than by formal training, but don’t let this deceive you, I
+                  have{" "}
+                  <span className="font-bold">
+                    invested more than 10.000 hours of my life
+                  </span>{" "}
+                  in learning to program and develop web applications on
+                  platforms such as:
                 </p>
                 <ul className="mt-4">
-                  <li className="ml-8">
+                  <li className="ml-8 font-bold">
                     <a>* Udemy</a>
                   </li>
-                  <li className="ml-8">
+                  <li className="ml-8 font-bold">
                     <a>* FreeCodeCamp</a>
                   </li>
-                  <li className="ml-8">
+                  <li className="ml-8 font-bold">
                     <a>* Alura</a>
                   </li>
-                  <li className="ml-8">
+                  <li className="ml-8 font-bold">
                     <a>* Microsft learning</a>
                   </li>
-                  <li className="ml-8">
+                  <li className="ml-8 font-bold">
                     <a>* Unity Learn</a>
                   </li>
                 </ul>
@@ -76,30 +79,28 @@ export default function About() {
                 <ul className="mt-4">
                   <li className="">
                     <h4 className="text-xl">
-                      <a>-- Desarrolle la web completa de CNADTED</a>
+                      <a>-- Developed the complete CNADTED website</a>
                     </h4>
-                    <span className="flex pl-2 text-xs my-2">jan,2023</span>
+                    <span className="flex pl-2 text-xs my-2">Jan, 2023</span>
                     <span className="flex text-xs mb-2 -mt-2">
-                      Este projecto aun continua desarrollandose
+                      This project is still under development
                     </span>
                     <br />
                     <h3>Overview:</h3>
                     <p className="mt-2 mb-6">
-                      CNADTED es una entidad privada, independiente sin ánimo de
-                      lucro, de carácter permanente, autónomo, de utilidad
-                      común, sin carácter, filiación, ideología o interés
-                      político, la cual se rige por los artículos 633 a 652 del
-                      Código Civil Colombiano, el decreto 2150 de 1995 y demás
-                      normas concordantes. Por consiguiente, en ningún momento
-                      ni sus bienes, ni sus beneficiarios, valoraciones,
-                      utilidades o créditos pueden ingresar al patrimonio de
-                      personas naturales o jurídicas, en calidad de distribución
-                      de utilidades, como tampoco en caso de liquidación de la
-                      entidad, ni directamente ni a través de personas naturales
-                      o jurídicas. Los recursos de CNADTED deben destinarse de
-                      manera exclusiva al cumplimiento de los fines que ella
-                      persigue, cuando no se destinen a incrementar su
-                      patrimonio
+                      CNADTED is a private, independent, non-profit entity, of a
+                      permanent nature, autonomous, of common utility, without
+                      character, affiliation, ideology or political interest,
+                      which is governed by articles 633 to 652 of the Colombian
+                      Civil Code, decree 2150 of 1995 and other concordant
+                      norms. Therefore, at no time can its assets,
+                      beneficiaries, valuations, profits or credits enter the
+                      patrimony of natural or legal persons, in the capacity of
+                      distribution of profits, nor in the event of liquidation
+                      of the entity, neither directly nor through natural or
+                      legal persons. CNADTED's resources must be exclusively
+                      destined to the fulfillment of the purposes it pursues,
+                      when they are not destined to increase its patrimony.
                     </p>
                     <ul>
                       <br />
@@ -113,36 +114,35 @@ export default function About() {
                     </ul>
                   </li>
                   <hr className="my-10" />
-                  {/* Projecto 2 */}
+                  {/* Project 2 */}
                   <li className="">
                     <h4 className="text-xl">
-                      <a>-- UI y desarrollo de la random quote machine</a>
+                      <a>-- UI and development of the random quote machine</a>
                     </h4>
-                    <span className="flex pl-2 text-xs my-2">may,2024</span>
+                    <span className="flex pl-2 text-xs my-2">May, 2024</span>
                     <span className="flex text-xs mb-2 -mt-2">
-                      Este projecto esta terminado
+                      This project is finished
                     </span>
                     <h3 className="mt-8">Overview:</h3>
                     <p className="mt-2 mb-6">
-                      El "Random Quote Machine" es una aplicación web
-                      desarrollada por mi este proyecto sirve como plataforma
-                      para mostrar citas aleatorias a los usuarios.
+                      The "Random Quote Machine" is a web application developed
+                      by me. This project serves as a platform to display random
+                      quotes to users.
                     </p>
-                    <h3>Funcionalidad:</h3>
+                    <h3>Functionality:</h3>
                     <p className="mt-2 mb-6">
-                      Al cargar la página, la aplicación muestra una cita
-                      aleatoria. Los usuarios pueden generar una nueva cita
-                      aleatoria con solo hacer clic en un botón. Lo que hace que
-                      este proyecto sea especial es que proporciona a los
-                      usuarios una nueva cita cada día, lo que permite a los
-                      usuarios consumir nuevas frases todos los días. Esto puede
-                      ser especialmente útil para aquellos que buscan una dosis
-                      diaria de inspiración o reflexión.
+                      Upon loading the page, the application displays a random
+                      quote. Users can generate a new random quote with just a
+                      click of a button. What makes this project special is that
+                      it provides users with a new quote every day, allowing
+                      users to consume new phrases every day. This can be
+                      especially useful for those seeking a daily dose of
+                      inspiration or reflection.
                     </p>
-                    <p className="mt-2 mb-6">Tecnologías utilizadas:</p>
+                    <p className="mt-2 mb-6">Technologies used:</p>
                     <p className="mt-2 mb-6">
-                      El proyecto está construido utilizando una combinación de
-                      tecnologías que incluyen:
+                      The project is built using a combination of technologies
+                      including:
                     </p>
                     <ul>
                       <br />
@@ -158,32 +158,30 @@ export default function About() {
                   <li className="">
                     <div className="mt-8"></div>
                     <h4 className="text-xl">
-                      <a>-- UI y desarrollo de mi propia Calculadora</a>
+                      <a>-- UI and development of my own Calculator</a>
                     </h4>
-                    <span className="flex pl-2 text-xs my-2">Fab,2024</span>
+                    <span className="flex pl-2 text-xs my-2">Feb, 2024</span>
                     <span className="flex text-xs mb-2 -mt-2">
-                      Este projecto esta terminado
+                      This project is finished
                     </span>
                     <h3 className="mt-8">Overview:</h3>
                     <p className="mt-2 mb-6">
-                      Este proyecto, desarrollado por mi, es una aplicación de
-                      calculadora sencilla. Forma parte de una colección más
-                      grande de proyectos en el repositorio Libraries-Projects
-                      en GitHub.
+                      This project, developed by me, is a simple calculator
+                      application. It is part of a larger collection of projects
+                      in the Libraries-Projects repository on GitHub.
                     </p>
-                    <h3 className="mt-8">Diseño:</h3>
+                    <h3 className="mt-8">Design:</h3>
                     <p className="mt-2 mb-6">
-                      La calculadora tiene una interfaz fácil de usar que se
-                      asemeja a una calculadora de mano tradicional. Los botones
-                      están claramente etiquetados con números y operaciones
-                      matemáticas, lo que facilita su uso incluso para aquellos
-                      que no están familiarizados con las aplicaciones de
-                      calculadora digitales.
+                      The calculator has a user-friendly interface that
+                      resembles a traditional handheld calculator. The buttons
+                      are clearly labeled with numbers and mathematical
+                      operations, making it easy to use even for those who are
+                      not familiar with digital calculator applications.
                     </p>
-                    <p className="mt-2 mb-6">Tecnologías utilizadas:</p>
+                    <p className="mt-2 mb-6">Technologies used:</p>
                     <p className="mt-2 mb-6">
-                      El proyecto está construido utilizando una combinación de
-                      tecnologías que incluyen:
+                      The project is built using a combination of technologies
+                      including:
                     </p>
                     <ul>
                       <br />
@@ -195,46 +193,44 @@ export default function About() {
                     </ul>
                   </li>
                   <hr className="my-10" />
-                  {/* Projecto 4 */}
+                  {/* Project 4 */}
                   <li className="">
                     <div className="mt-8"></div>
                     <h4 className="text-xl">
-                      <a>-- UI y desarrollo de mi Drum Machine</a>
+                      <a>-- UI and development of my Drum Machine</a>
                     </h4>
-                    <span className="flex pl-2 text-xs my-2">Fab,2024</span>
+                    <span className="flex pl-2 text-xs my-2">Feb, 2024</span>
                     <span className="flex text-xs mb-2 -mt-2">
-                      Este projecto esta terminado
+                      This project is finished
                     </span>
                     <h3 className="mt-8">Overview:</h3>
                     <p className="mt-2 mb-6">
-                      Este proyecto, desarrollado por mi, es una aplicación de
-                      máquina de batería1. Forma parte de una colección más
-                      grande de proyectos en el repositorio Libraries-Projects
-                      en GitHub
+                      This project, developed by me, is a drum machine
+                      application. It is part of a larger collection of projects
+                      in the Libraries-Projects repository on GitHub.
                     </p>
-                    <h3 className="mt-8">Diseño:</h3>
+                    <h3 className="mt-8">Design:</h3>
                     <p className="mt-2 mb-6">
-                      La interfaz de la aplicación es sencilla y fácil de usar.
-                      Cada botón está claramente etiquetado con el sonido de
-                      batería que activa, y los botones están organizados de
-                      manera intuitiva para facilitar la creación de ritmos
+                      The application's interface is simple and easy to use.
+                      Each button is clearly labeled with the drum sound it
+                      triggers, and the buttons are intuitively organized to
+                      facilitate rhythm creation.
                     </p>
-                    <h3 className="mt-8">Funcionalidad:</h3>
+                    <h3 className="mt-8">Functionality:</h3>
                     <p className="mt-2 mb-6">
-                      La Máquina de Batería es una aplicación interactiva que
-                      permite a los usuarios tocar sonidos de batería. Cada
-                      sonido de batería se activa al hacer clic en un botón
-                      correspondiente o al presionar una tecla específica en el
-                      teclado1. Los sonidos de batería incluyen una variedad de
-                      golpes de tambor y platillos, lo que permite a los
-                      usuarios crear su propia música de percusión, pero en este
-                      caso yo le agrege sonidos del videojuego Zelda, para
-                      hacerlo un poco mas diferente y divertido
+                      The Drum Machine is an interactive application that allows
+                      users to play drum sounds. Each drum sound is triggered by
+                      clicking a corresponding button or pressing a specific key
+                      on the keyboard. The drum sounds include a variety of drum
+                      beats and cymbals, allowing users to create their own
+                      percussion music. But in this case, I added sounds from
+                      the Zelda video game, to make it a bit more different and
+                      fun.
                     </p>
-                    <p className="mt-2 mb-6">Tecnologías utilizadas:</p>
+                    <p className="mt-2 mb-6">Technologies used:</p>
                     <p className="mt-2 mb-6">
-                      El proyecto está construido utilizando una combinación de
-                      tecnologías que incluyen:
+                      The project is built using a combination of technologies
+                      including:
                     </p>
                     <ul>
                       <br />
@@ -267,7 +263,7 @@ export default function About() {
                         target="_blank"
                         href="https://drive.google.com/file/d/1gi5aEETrLF7dDPEw-zzBpY7OxobvlPeo/view"
                       >
-                        ---HTML5 Y CSS3 PARTE 1: MI PRIMERA PÁGINA WEB
+                        -- HTML5 AND CSS3 PART 1: MY FIRST WEB PAGE
                       </a>
                     </li>
                     <li className="pl-3">
@@ -276,8 +272,8 @@ export default function About() {
                         target="_blank"
                         href="https://drive.google.com/file/d/1qNoKqnm7g1otPxLkCQkI28MaC8iPqpLL/view"
                       >
-                        ---HTML5 Y CSS3 PARTE 2: POSICIONAMIENTO, LISTAS Y
-                        NAVEGACIÓN
+                        ---HTML5 AND CSS3 PART 2: POSITIONING, LISTS AND
+                        NAVIGATION
                       </a>
                     </li>
                     <li className="pl-3">
@@ -286,8 +282,7 @@ export default function About() {
                         target="_blank"
                         href="https://drive.google.com/file/d/1k22yAHr_I2XT-nuk8RJStiP6XM25OsOL/view"
                       >
-                        ---HTML5 Y CSS3 PARTE 3: TRABAJANDO CON FORMULARIOS Y
-                        TABLAS
+                        ---HTML5 AND CSS3 PART 3: WORKING WITH FORMS AND TABLES
                       </a>
                     </li>
                     <li className="pl-3">
@@ -296,7 +291,7 @@ export default function About() {
                         target="_blank"
                         href="https://drive.google.com/file/d/1Tk6q1ONSU5TCUWNOoz-ML41Gz4J3GNLV/view"
                       >
-                        ---HTML5 Y CSS3 PARTE 4: AVANZANDO EN CSS
+                        ---HTML5 AND CSS3 PART 4: ADVANCING IN CSS
                       </a>
                     </li>
                     <li className="pl-3">
@@ -305,7 +300,7 @@ export default function About() {
                         target="_blank"
                         href="https://drive.google.com/file/d/1ysuzAJSyMPUQ3OETs8TRz-ppts67eech/view"
                       >
-                        ---LÓGICA DE PROGRAMACIÓN: PRIMEROS PASOS
+                        ---PROGRAMMING LOGIC: FIRST STEPS
                       </a>
                     </li>
                     <li className="pl-3">
@@ -314,7 +309,7 @@ export default function About() {
                         target="_blank"
                         href="https://drive.google.com/file/d/1WCdRBFivqVoqDnJNB_nqzxDmXrLg4oXd/view"
                       >
-                        ---LÓGICA DE PROGRAMACIÓN: CONCEPTOS PRIMORDIALES
+                        ---PROGRAMMING LOGIC: FUNDAMENTAL CONCEPTS
                       </a>
                     </li>
                     <li className="pl-3">
@@ -323,8 +318,8 @@ export default function About() {
                         target="_blank"
                         href="https://drive.google.com/file/d/1u7-g_0gn4FGYqe6B4Dk0AezjPK2lqHUU/view"
                       >
-                        ---LÓGICA DE PROGRAMACIÓN: PRACTICANDO CON JUEGOS Y
-                        ANIMACIONES
+                        ---PROGRAMMING LOGIC: PRACTICING WITH GAMES AND
+                        ANIMATIONS
                       </a>
                     </li>
                     <li className="pl-3">
@@ -333,7 +328,7 @@ export default function About() {
                         target="_blank"
                         href="https://drive.google.com/file/d/1cpSvKC-LckK6u2mAhGQY1y_ufjov5swp/view"
                       >
-                        ---JAVA JRE Y JDK: COMPILE Y EJECUTE SU PRIMER PROGRAMA
+                        ---JAVA JRE AND JDK: COMPILE AND RUN YOUR FIRST PROGRAM
                       </a>
                     </li>
                     <li className="pl-3">
@@ -372,7 +367,7 @@ export default function About() {
                         target="_blank"
                         href="https://drive.google.com/file/d/1gi5aEETrLF7dDPEw-zzBpY7OxobvlPeo/view"
                       >
-                        ---FOCO: ENFOCARSE TRAE MÁS RESULTADOS PARA EL DÍA A DÍA
+                        -- FOCUS: FOCUSING BRINGS MORE RESULTS FOR DAY TO DAY
                       </a>
                     </li>
                     <li className="pl-3">
@@ -381,7 +376,7 @@ export default function About() {
                         target="_blank"
                         href="https://drive.google.com/file/d/1b0LXDxm7LcNTsf7MviHYxh_weiAqWGq4/view"
                       >
-                        ---GIT Y GITHUB: CONTROLE Y COMPARTA SU CÓDIGO
+                        ---GIT AND GITHUB: CONTROL AND SHARE YOUR CODE
                       </a>
                     </li>
                     <li className="pl-3">
@@ -390,8 +385,7 @@ export default function About() {
                         target="_blank"
                         href="https://drive.google.com/file/d/1xJQKK4jWdKCdFoq1kZdk_IgW1STRvZ2M/view"
                       >
-                        ---HÁBITOS: SER PRODUCTIVO PARA CUMPLIR SUS METAS
-                        PERSONALES
+                        ---HABITS: BE PRODUCTIVE TO ACHIEVE YOUR PERSONAL GOALS
                       </a>
                     </li>
                     <li className="pl-3">
@@ -400,7 +394,7 @@ export default function About() {
                         target="_blank"
                         href="https://drive.google.com/file/d/1In-XMLD7BwvOq2N2ohELQkQ82IuDldcx/view"
                       >
-                        ---LINKEDIN: COMO HACER QUE TU PERFIL TRABAJE POR TI
+                        ---LINKEDIN: HOW TO MAKE YOUR PROFILE WORK FOR YOU
                       </a>
                     </li>
                     <li className="pl-3">
@@ -409,7 +403,7 @@ export default function About() {
                         target="_blank"
                         href="https://drive.google.com/file/d/1CmfQqN9OXPI38OEsWZy1uc9fQCEDyUQ1/view"
                       >
-                        ---PRODUCTIVIDAD: ESTRATEGIAS PARA ACTIVIDADES DIARIAS
+                        ---PRODUCTIVITY: STRATEGIES FOR DAILY ACTIVITIES
                       </a>
                     </li>
                   </ul>
@@ -421,10 +415,7 @@ export default function About() {
                           key={index}
                           className="bg-slate-500 sw-auto container-logo2 rounded-md"
                         >
-                          <div
-                            key={index}
-                            className="container-logo2 hadow-lg"
-                          >
+                          <div key={index} className="container-logo2 hadow-lg">
                             <a
                               href={logo.href}
                               target="_blank"

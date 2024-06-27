@@ -4,10 +4,15 @@ export default function Contact() {
   return (
     <>
       <div className="w-3/4 my-28 mx-auto px-5 py-8 border border-accent rounded-xl">
-        <h2 className="font-bold py-2 ml-4">Contact Me<span className="ml-2"><i className="bi bi-person-circle "></i></span></h2>
+        <h2 className="font-bold py-2 ml-4">
+          Contact Me
+          <span className="ml-2">
+            <i className="bi bi-person-circle "></i>
+          </span>
+        </h2>
         <form className="">
           <label className="input input-bordered flex items-center my-4 gap-2">
-            <input type="text" className="grow" placeholder="Your name" />
+            <input type="text" className="grow" placeholder="Your name*" />
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -18,7 +23,7 @@ export default function Contact() {
             </svg>
           </label>
           <label className="my-4 input input-bordered flex items-center gap-2">
-            <input type="text" className="grow" placeholder="Your last Name" />
+            <input type="text" className="grow" placeholder="Your last Name (optional)" />
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -29,7 +34,7 @@ export default function Contact() {
             </svg>
           </label>
           <label className="my-4 input input-bordered flex items-center gap-2">
-            <input type="number" className="grow" placeholder="Phone Number" />
+            <input type="number" className="grow" placeholder="Phone Number*" />
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -41,8 +46,8 @@ export default function Contact() {
               <path d="M2.678 11.894a1 1 0 0 1 .287.801 11 11 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8 8 0 0 0 8 14c3.996 0 7-2.807 7-6s-3.004-6-7-6-7 2.808-7 6c0 1.468.617 2.83 1.678 3.894m-.493 3.905a22 22 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a10 10 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105" />
             </svg>
           </label>
-          <label className="input input-bordered flex items-center gap-2">
-            <input type="text" className="grow" placeholder="Your Email" />
+          <label className="my-4 input input-bordered flex items-center gap-2">
+            <input type="text" className="grow" placeholder="Your Email*" />
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -53,11 +58,31 @@ export default function Contact() {
               <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
             </svg>
           </label>
+          <label className="my-4 input input-bordered flex items-center gap-2">
+            <input
+              type="text"
+              className="grow"
+              placeholder="Which your Company (optional)"
+            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-buildings"
+              viewBox="0 0 16 16"
+            >
+              <path d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z" />
+              <path d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z" />
+            </svg>
+          </label>
           <textarea
             className="my-4 textarea textarea-bordered textarea-lg w-full max-w-screen-2xlxl"
             placeholder="Tell me about"
           ></textarea>
-          <button className="btn btn-accent w-full mt-6 text-2xl font-bold">Send</button>
+          <button className="btn btn-accent w-full mt-6 text-2xl font-bold">
+            Send
+          </button>
         </form>
       </div>
     </>
