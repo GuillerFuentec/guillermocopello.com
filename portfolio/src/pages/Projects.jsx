@@ -1,4 +1,4 @@
-import { webProjects } from "./projects";
+import { webProjects } from "./project";
 
 export default function Projects() {
   const handleClick = (url) => {

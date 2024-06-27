@@ -13,7 +13,7 @@ export default function Footer() {
       </aside>
       <nav>
         <h6 className="footer-title">Social</h6>
-        <div className="grid grid-flow-col gap-4">
+        <div className="grid grid-cols-3 gap-4">
           <i className="bi bi-twitter-x cursor-pointer"></i>
           <i className="bi bi-linkedin cursor-pointer"></i>
           <i className="bi bi-github cursor-pointer"></i>

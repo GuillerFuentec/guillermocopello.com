@@ -97,9 +97,9 @@ export default function HeaderNav({ toggleTheme }) {
                               <li>
                                 <a
                                   href="/about"
-                                  className="block mt-4 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                                 >
-                                  About Mea
+                                  About Me
                                 </a>
                               </li>
                               <li>
@@ -126,9 +126,6 @@ export default function HeaderNav({ toggleTheme }) {
                                 >
                                   Contact Us
                                 </a>
-                              </li>
-                              <li>
-                                <hr className="dropdown-divider" />
                               </li>
                               <li>
                                 <a
@@ -195,7 +192,6 @@ export default function HeaderNav({ toggleTheme }) {
                             Contact
                           </a>
                         </li>
-                        
                       </ul>
                     </nav>
                   </div>
